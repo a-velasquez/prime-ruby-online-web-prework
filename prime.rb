@@ -4,7 +4,5 @@ def prime? (i)
  (2...i).each {|range_number| 
   elsif i % range_number == 0}
     return true
-  else 
-    false 
   end
 end
