@@ -3,6 +3,8 @@ def prime? (n)
         false
     elsif n == 2
         true
+    elsif n == 3
+        true 
     else 
         (2..n/2).none? { |i| n % i == 0}
     end
